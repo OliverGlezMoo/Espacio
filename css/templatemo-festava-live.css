@@ -506,8 +506,8 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/Eclipse\ Anular.jpg');
-  background-color: #704010;
+  /*background-image: url('../images/EclipseAnular.jpg');*/
+  background-color: #746f6d;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
