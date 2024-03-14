@@ -506,7 +506,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  background-image: url('../images/Eclipse\ Anular.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -536,8 +536,9 @@ strong {
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
+  opacity: 0.75;
   border-radius: var(--border-radius-medium);
-  border: 1px solid rgba(209, 213, 219, 0.3);
+  border: 1px solid rgba(209, 213, 219, 0.233);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -639,13 +640,31 @@ strong {
   margin: 1.5rem 0;
 }
 
+.artists-hover p strong {
+  color: var(--white-color);
+  display: inline-block;
+  min-width: 180px;
+  margin-right: 20px;
+}
+
+.artists-hover p a {
+  color: var(--secondary-color);
+}
+
+.artists-hover p a:hover {
+  color: var(--white-color);
+}
+
+.artists-hover hr {
+  margin: 1.5rem 0;
+}
 
 /*---------------------------------------
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
-  background-color: #242424;
+  background-image: url('../images/Fondo.jpg');
+  background-color: #ce6666;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -668,10 +687,15 @@ strong {
   background-color: var(--secondary-color);
 }
 
+.schedule-table th{
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+}
+
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #363a3e;
+  /*border-bottom-color: #ffffff;*/
   padding: 30px;
 }
 
@@ -693,24 +717,82 @@ strong {
   border-right-color: transparent;
 }
 
-.schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+.schedule-table .inicial-background-image {
+  background-image: url('../images/Inicial.png');
 }
 
-.schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+.schedule-table .total-background-image {
+  background-image: url('../images/Total.png');
 }
 
-.schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+.schedule-table .final-background-image {
+  background-image: url('../images/Final.png');
+}
+/*
+.schedule-table .mazatlan-background-image {
+  /*background-image: url('../images/Mazatlán.jpg');
+  background-color: white;
+  opacity: 1;
 }
 
+.schedule-table .sinaloa-background-image {
+  /*background-image: url('../images/Sinaloa.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .mexico-background-image {
+ /* background-image: url('../images/México.jpg');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .dallas-background-image {
+  /*background-image: url('../images/Dallas.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .texas-background-image {
+  /*background-image: url('../images/Texas.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .usa-background-image {
+  /*background-image: url('../images/USA.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .montreal-background-image {
+  /*background-image: url('../images/Montreal.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .quebec-background-image {
+ /* background-image: url('../images/Quebec.png');
+  background-color: white;
+  opacity: 1;
+}
+
+.schedule-table .canada-background-image {
+  /*background-image: url('../images/Canada.png');
+  background-color: white;
+  opacity: 1;
+}
+*/
 .table-background-image-wrap {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgb(155, 152, 152);
   box-shadow: none;
   position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
 .schedule-table h3,
@@ -718,8 +800,8 @@ strong {
   color: var(--white-color);
   position: relative;
   z-index: 2;
+  font-weight: 700;
 }
-
 
 /*---------------------------------------
   PRICING              
@@ -779,14 +861,12 @@ strong {
   color: var(--link-hover-color);
 }
 
-
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
 .google-map {
   border-radius: var(--border-radius-medium);
 }
-
 
 /*---------------------------------------
   CUSTOM FORM               
