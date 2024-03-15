@@ -5,12 +5,15 @@
 ## Objetivo
 
 Implementar conocimientos de HTML.
+
 Implementar conocimientos de CSS.
 
 ## Desarrollo
 
 Se debe obtener una plantilla como base.
+
 Se debe modificar con le contenido del tema asignado en clase.
+
 Se debe implementar estilos de CSS.
 
 ### Sitio web
