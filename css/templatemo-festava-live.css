@@ -513,6 +513,14 @@ strong {
   position: relative;
 }
 
+.about-section2 {
+  /*background-image: url('../images/EclipseAnular.jpg');*/
+  background-color: #3e6da3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
@@ -728,61 +736,7 @@ strong {
 .schedule-table .final-background-image {
   background-image: url('../images/Final.png');
 }
-/*
-.schedule-table .mazatlan-background-image {
-  /*background-image: url('../images/Mazatlán.jpg');
-  background-color: white;
-  opacity: 1;
-}
 
-.schedule-table .sinaloa-background-image {
-  /*background-image: url('../images/Sinaloa.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .mexico-background-image {
- /* background-image: url('../images/México.jpg');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .dallas-background-image {
-  /*background-image: url('../images/Dallas.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .texas-background-image {
-  /*background-image: url('../images/Texas.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .usa-background-image {
-  /*background-image: url('../images/USA.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .montreal-background-image {
-  /*background-image: url('../images/Montreal.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .quebec-background-image {
- /* background-image: url('../images/Quebec.png');
-  background-color: white;
-  opacity: 1;
-}
-
-.schedule-table .canada-background-image {
-  /*background-image: url('../images/Canada.png');
-  background-color: white;
-  opacity: 1;
-}
-*/
 .table-background-image-wrap {
   background-repeat: no-repeat;
   background-position: center;
@@ -896,7 +850,9 @@ strong {
   border-color: transparent;
 }
 
-
+.text-interesado{
+  color:black;
+}
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
